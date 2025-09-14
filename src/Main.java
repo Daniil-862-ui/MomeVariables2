@@ -22,22 +22,22 @@ public class Main {
         System.out.println("----");
 
         //Задача 2
-        float Value1 = 27.12f;
-        long Value2 = 987678965549L;
-        double Value3 = 2.786;
-        short Value4 = 569;
-        short Value5 = -159;
-        int Value6 = 27897;
-        byte Value7 = 67;
+        float floatValue1 = 27.12f;
+        long longValue2 = 987678965549L;
+        double doubleValue3 = 2.786;
+        short shortValue4 = 569;
+        short shortValue5 = -159;
+        int intValue6 = 27897;
+        byte byteValue7 = 67;
 
         System.out.println("Задача 2:");
-            System.out.println("Значение " + Value1 + " хранится в переменной типа float");
-            System.out.println("Значение " + Value2 + " хранится в переменной типа long");
-            System.out.println("Значение " + Value3 + " хранится в переменной типа double");
-            System.out.println("Значение " + Value4 + " хранится в переменной типа short");
-            System.out.println("Значение " + Value5 + " хранится в переменной типа short");
-            System.out.println("Значение " + Value6 + " хранится в переменной типа int");
-            System.out.println("Значение " + Value7 + " хранится в переменной типа byte");
+            System.out.println("Значение " + floatValue1 + " хранится в переменной типа float");
+            System.out.println("Значение " + longValue2 + " хранится в переменной типа long");
+            System.out.println("Значение " + doubleValue3 + " хранится в переменной типа double");
+            System.out.println("Значение " + shortValue4 + " хранится в переменной типа short");
+            System.out.println("Значение " + shortValue5 + " хранится в переменной типа short");
+            System.out.println("Значение " + intValue6 + " хранится в переменной типа int");
+            System.out.println("Значение " + byteValue7 + " хранится в переменной типа byte");
         System.out.println("----");
 
         //Задача 3
@@ -116,18 +116,18 @@ public class Main {
         System.out.println("----");
 
         //Задача 7
-        double KilogramsInGrams = 1000;
-        double needToResetKg = 7;
+        double kilogramsGrams = 1000;
+        double needResetKg = 7;
 
         int weightLossDay250Gr = 250;
         int weightLossDay500Gr = 500;
 
-            double resultTraining250Gr = (needToResetKg * KilogramsInGrams) / weightLossDay250Gr;
-            double resultTraining500Gr = (needToResetKg * KilogramsInGrams) / weightLossDay500Gr;
+            double resultTraining250Gr = (needResetKg * kilogramsGrams) / weightLossDay250Gr;
+            double resultTraining500Gr = (needResetKg * kilogramsGrams) / weightLossDay500Gr;
             double averageNumberDays = (resultTraining250Gr + resultTraining500Gr) / 2;
 
         System.out.println("Задача 7:");
-            System.out.println("Необходимо сбросить: " + needToResetKg + " кг");
+            System.out.println("Необходимо сбросить: " + needResetKg + " кг");
             System.out.println("При потере 250г в день потребуется: " + resultTraining250Gr + " дней");
             System.out.println("При потере 500г в день потребуется: " + resultTraining500Gr + " дней");
             System.out.println("Среднее количество дней: " + averageNumberDays + " дней");
